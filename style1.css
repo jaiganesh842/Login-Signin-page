@@ -28,7 +28,7 @@ h1{
     background: none;
     display: block;
     margin: 10px auto;
-    text-align:left;
+    text-align: left;
     border: 1px solid gray;
     padding: 8px 75px;
     outline: none;
@@ -47,11 +47,11 @@ h1{
     font-size: 15px;
     font-family:'Arial';
     text-align: center;
-    padding: 8px 135px;
+    padding: 8px 131px;
     color: aliceblue;
     background:green;
     border-radius: 5px;
 }
-.box input[type ="submit"]:hover{
+.but:hover{
 background: darkgreen;
 }
