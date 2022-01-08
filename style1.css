@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:darkblue;
+}
+
+h1{
+    color: aliceblue;
+    font-family:'Arial';
+    font-weight:lighter; 
+    font-size: 28px;
+    text-align: center;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    text-align: left;
+    text-transform: uppercase;
+}
+.box input[type="email"],.box input[type ="password"],.box input[type ="text"],.box input[type="radio"],.box input[type="number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align:left;
+    border: 1px solid gray;
+    padding: 8px 75px;
+    outline: none;
+    color:black;
+    margin-left: -2px;
+    border-radius: 0px;
+    transition: 0.25s; 
+    background: whitesmoke;
+}
+.form{
+    display:flex;
+    justify-content: space-around;
+}
+
+.but{
+    font-size: 15px;
+    font-family:'Arial';
+    text-align: center;
+    padding: 8px 135px;
+    color: aliceblue;
+    background:green;
+    border-radius: 5px;
+}
