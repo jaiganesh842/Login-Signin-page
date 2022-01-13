@@ -28,9 +28,10 @@ h1{
     background: none;
     display: block;
     margin: 10px auto;
-    text-align: left;
+    font-size:100%;
+    text-align:justify;
     border: 1px solid gray;
-    padding: 8px 75px;
+    padding: 8px 50px;
     outline: none;
     color:black;
     margin-left: -2px;
