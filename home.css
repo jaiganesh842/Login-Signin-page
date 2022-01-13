@@ -58,8 +58,8 @@ body{
    font-size: 17px;
 }
 
-.form select[name="start"],.form select[name="destination"],.form select[name="cars"]{
-    margin: 10px;
+.form select[name="start"],.form select[name="destination"],.form select[name="cars"],.form select[name="driver"]{
+    margin: auto;
     text-align: left;
     font-size:70%;
     border: 2px solid gray;
@@ -85,5 +85,6 @@ body{
     margin: -5px;
 }
 .ped1{
-    margin: -5px;
+    margin: 10px;
+    margin-bottom:-5px;
 }
